@@ -1,0 +1,13 @@
+button{
+    display: flex;
+padding: 1.1875rem 2.8125rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 0.3125rem;
+background: #FD1E25;
+color: var(--blck);
+border: none;
+background-image: url(../Assets/images/fram.svg);
+content: "Take a Closer Look";
+}

@@ -96,3 +96,28 @@ hr{
 .sp1{
     gap: 5%;
 }
+.rot{
+    transform: rotate(90deg);
+    width: 15%;
+    text-wrap: nowrap;
+    height: 0;
+
+}
+.pp3{
+    padding-bottom: 15%;
+}
+.conte{
+    width: 80%;
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+
+}
+.vd2{
+    width: 50rem;
+    aspect-ratio: 89/50;
+    border-radius: 0.3125rem;
+    /* box-shadow: -30px 33px 42.5px 3px rgba(0, 0, 0, 0.30); */
+    padding-left: 31%;
+}
