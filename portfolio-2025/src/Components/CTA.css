@@ -1,0 +1,17 @@
+.cta{
+    text-wrap: nowrap;
+    justify-content: center;
+    align-items: end;
+}
+.ico{
+width: 1.5rem;
+height: 1.5rem;
+}
+.ct{
+    justify-content: space-between;
+    align-items: center;
+}
+.txt2{
+    text-decoration: underline 2px var(--blck);
+    padding-right: 2%;
+}

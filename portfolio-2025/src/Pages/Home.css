@@ -12,6 +12,7 @@
     --red:#FF0000;
     --blck:#050506;
     --wht: #EFF0E8;
+    --grey: #6F6F6F;
 }
 *{
     margin: 0;
@@ -73,6 +74,7 @@ position: absolute;
     z-index: -1;
     top: 0%;
     width: 100%;
+    float: right;
 }
 .vd1{
     width: 12.5625rem;
@@ -108,10 +110,12 @@ hr{
 }
 .conte{
     width: 80%;
+    padding-top: 10%;
 }
 .con{
     display: flex;
     justify-content: space-between;
+
 
 }
 .vd2{
@@ -120,4 +124,114 @@ hr{
     border-radius: 0.3125rem;
     /* box-shadow: -30px 33px 42.5px 3px rgba(0, 0, 0, 0.30); */
     padding-left: 31%;
+
+}
+.vd3{
+        padding-left: 0%;
+
+}
+.c2{
+    margin-right: 40%;
+    left: 60%;
+
+}
+.wd2{
+    width: 90%;
+}
+.qut{
+    padding-top: 5%;
+    background-image: url(../Assets/images/bg2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt1{
+    color: var(--red);
+    padding-left: 10%;
+}
+.txt3{
+    line-height: 115%; /* 1.725rem */
+text-transform: capitalize;
+}
+.sp3{
+    padding: 5%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+.stroke{
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: var(--blck);
+}
+.txt3{
+    color: #000;
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: #000;
+font-family: Syne;
+font-size: 8rem;
+font-style: normal;
+font-weight: 800;
+text-transform: capitalize;
+}
+.sp4{
+    padding-top: 7%;
+}
+.p4{
+    width: 28.375rem;
+    padding-right: 39%;
+}
+.p7{
+    transform: rotate(-90deg);
+    color: var(--grey);
+}
+.one{
+    width: 14.5625rem;
+height: 17.875rem;
+border-radius: 0.3125rem;
+}
+.two{
+    width: 25.5625rem;
+height: 18rem;
+border-radius: 0.3125rem;
+}
+.three{
+    width: 23rem;
+height: 33.375rem;
+border-radius: 0.3125rem;
+}
+.four{
+    width: 14.625rem;
+height: 19.6875rem;
+border-radius: 0.3125rem;
+}
+.vd5{
+
+    height: 19.6875rem;
+    border-radius: 0.3125rem;
+}
+.vd4{
+    width: 14.75rem;
+height: 8.3125rem;
+border-radius: 0.3125rem;
+margin-bottom: 5%;
+}
+.seven{
+    width: 14.75rem;
+    height: 9.0625rem;
+}
+.eight{
+    width: 14.75rem;
+height: 9.0625rem;
+border-radius: 0.3125rem;
+margin: 0 auto;
+  display: block;
+  width: 36.5%;
+}
+.comp{
+    justify-content: center;
+  align-items: end;
+  gap: 2%;
+}
+.sp5{
+    padding-top: 2%;
+    align-items: flex-start;
 }

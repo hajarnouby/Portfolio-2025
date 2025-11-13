@@ -1,0 +1,36 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_405_30)">
+<rect width="1280" height="800" transform="matrix(-1 0 0 1 1280 0)" fill="#EFF0E8"/>
+<g opacity="0.5">
+<g filter="url(#filter0_f_405_30)">
+<path d="M0 155V522H322.5V304C284.333 269.833 195 206.4 143 226C91 245.6 26 186.833 0 155Z" fill="black"/>
+</g>
+<g filter="url(#filter1_f_405_30)">
+<path d="M258 234V522H484V350.926C457.254 324.114 394.651 274.336 358.211 289.717C321.771 305.098 276.22 258.981 258 234Z" fill="#202020"/>
+</g>
+<g filter="url(#filter2_f_405_30)">
+<path d="M430 352.586V512.586C430 517.556 434.029 521.586 439 521.586H701.5C706.471 521.586 710.5 517.556 710.5 512.586V354.458C710.5 353.223 710.279 351.987 709.648 350.926C700.918 336.256 660.967 324.328 561.5 384.086C458.3 446.086 430.833 388.919 430 352.586Z" fill="#676767"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_405_30" x="-222.2" y="-67.2" width="766.9" height="811.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="111.1" result="effect1_foregroundBlur_405_30"/>
+</filter>
+<filter id="filter1_f_405_30" x="35.8" y="11.8" width="670.4" height="732.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="111.1" result="effect1_foregroundBlur_405_30"/>
+</filter>
+<filter id="filter2_f_405_30" x="207.8" y="116.8" width="724.9" height="626.986" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="111.1" result="effect1_foregroundBlur_405_30"/>
+</filter>
+<clipPath id="clip0_405_30">
+<rect width="1280" height="800" fill="white" transform="matrix(-1 0 0 1 1280 0)"/>
+</clipPath>
+</defs>
+</svg>
