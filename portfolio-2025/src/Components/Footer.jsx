@@ -35,7 +35,7 @@ const Footer = () => {
                     <p className='ftt'>Get In Touch</p>
                     </div>
                 </div>
-                <p className='ops opt'>@2025. All Right Reserved to Hajar Nouby</p>
+                <p className='ops opt ftt'>@2025. All Right Reserved to Hajar Nouby</p>
             </div>
                         <div className='foots'>
             <video className='fvd' src={fnal} autoPlay loop muted></video>

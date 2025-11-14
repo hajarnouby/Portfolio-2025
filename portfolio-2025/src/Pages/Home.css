@@ -247,6 +247,7 @@ margin: 0 auto;
 .collab{
     background-color: var(--blck);
     color: var(--wht);
+    padding-top: 5%;
 }
 .hrr{
     width: 90.5%;
@@ -263,4 +264,7 @@ height: 0.0625rem;
 .ff{
     width: 60%;
     padding-top: 10%;
+}
+a{
+    text-decoration: none;
 }

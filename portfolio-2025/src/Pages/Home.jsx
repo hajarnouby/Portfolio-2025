@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 import Nav from '../Components/Nav';
 import bg from '../Assets/images/bg.svg'
@@ -96,7 +97,7 @@ const Home = () => {
                 <img className='eight' src={eight} alt="image" />
                 <div className='page row ct'>
                 <img className='star' src={star} alt="image" />
-                <Cta title="Go Deeper" />
+                <Link to="/projects"><Cta title="Go Deeper" /></Link>
                 </div>
             </div>
              <div className='page sp4'>

@@ -1,0 +1,29 @@
+.proj{
+    width: 85%;
+align-self: stretch;
+border-radius: 0.3125rem;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+width: 28 rem;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+}
+.projects{
+justify-content: center;
+  display: flex;
+  align-content: baseline;
+  align-items: stretch;
+  gap: 4%;
+  padding-top: 4%;
+    padding-bottom: 4%;
+}
+.projs{
+    width: 37.375rem;
+height: 23rem;
+}
+.center{
+    margin: 0 auto;
+}
+.sp88{
+    margin-bottom: 5%;
+}

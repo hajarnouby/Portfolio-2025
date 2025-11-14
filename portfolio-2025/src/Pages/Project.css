@@ -1,0 +1,18 @@
+.para{
+    font-weight: 400;
+line-height: 150%;
+width: 50rem;
+}
+.sp88{
+    padding-top: 5%;
+}
+.tool{
+    width: 10%;
+}
+.sppp{
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+.redish{
+    color: var(--red);
+}
