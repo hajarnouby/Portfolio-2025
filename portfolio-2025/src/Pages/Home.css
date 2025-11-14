@@ -220,7 +220,6 @@ margin-bottom: 5%;
 }
 .eight{
     width: 14.75rem;
-height: 9.0625rem;
 border-radius: 0.3125rem;
 margin: 0 auto;
   display: block;
@@ -234,4 +233,14 @@ margin: 0 auto;
 .sp5{
     padding-top: 2%;
     align-items: flex-start;
+    padding-bottom: 2%;
+}
+.high{
+    background-image: url(../Assets/images/highli.svg);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+.ctaa{
+    padding-top: 15%;
+    float: left;
 }

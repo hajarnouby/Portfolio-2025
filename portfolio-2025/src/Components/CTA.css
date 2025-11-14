@@ -11,7 +11,7 @@ height: 1.5rem;
     justify-content: space-between;
     align-items: center;
 }
-.txt2{
+.txt4{
     text-decoration: underline 2px var(--blck);
     padding-right: 2%;
 }

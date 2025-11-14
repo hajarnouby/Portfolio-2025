@@ -1,0 +1,22 @@
+.bcta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 84px;
+    float: right;
+    width: 58.75rem;
+    padding: 1%;
+    border-bottom: 1px solid #000;
+    margin-top: 2%;
+}
+.bcta:hover, svg:hover path {
+    background-color: var(--red);
+      fill: #FFF;
+      color: #fff;
+}
+.hh4{
+    width: 24rem;  
+}
+.pp4{
+    width: 22.5625rem;
+}

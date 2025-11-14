@@ -21,6 +21,8 @@ import seven from '../Assets/images/seven.svg'
 import eight from '../Assets/images/eight.svg'
 import star from '../Assets/images/star.svg'
 import Cta from './../Components/CTA';
+import Txt from '../Components/Txt';
+import Bcta from '../Components/Blogcta';
 
 const Home = () => {
     return ( 
@@ -90,10 +92,24 @@ const Home = () => {
                 <img className='eight' src={eight} alt="image" />
                 <div className='page row ct'>
                 <img className='star' src={star} alt="image" />
-                <Cta />
+                <Cta title="Go Deeper" />
                 </div>
             </div>
-             
+             <div className='page sp4'>
+                <div className='high'>
+                <Txt title="BLOGS"/>
+                </div>
+                    <Bcta title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+                    <Bcta title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+                    <Bcta title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+             </div>
+             <div className='page ctaa'>
+                <Cta title="Books I Read And to Be Read" />
+
+             </div>
+
+
+
         </body>
 
      );
