@@ -27,6 +27,7 @@ import Book from '../Components/Book';
 import emo from '../Assets/images/emotion.svg'
 import Form from '../Components/Form';
 import Btn from '../Components/Btn';
+import Footer from '../Components/Footer';
 const Home = () => {
     return ( 
         <body>
@@ -145,7 +146,7 @@ const Home = () => {
 
 
 
-
+                <Footer />
         </body>
 
      );
