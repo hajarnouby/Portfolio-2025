@@ -23,6 +23,7 @@ import star from '../Assets/images/star.svg'
 import Cta from './../Components/CTA';
 import Txt from '../Components/Txt';
 import Bcta from '../Components/Blogcta';
+import Book from '../Components/Book';
 
 const Home = () => {
     return ( 
@@ -105,10 +106,24 @@ const Home = () => {
              </div>
              <div className='page ctaa'>
                 <Cta title="Books I Read And to Be Read" />
+                    <div className='col books'>
+                        <div className='book1'>
+                        <Book title="REFACTORING UI" value="By Adam Wathan & Steve Schoger" />
+                        </div>
+                        <div className='book1 book2'>
+                        <Book title="SHOW YOUR WORK" value="By Austin Kleon" />
+                        </div>
+                         <div className='book1 book3'>
+                        <Book title="THE DESIGN OF EVERYDAY THINGS" value="By Don" />
+                        </div>
+                                                <div className='book1'>
+                        <Book title="STEAL LIKE A ARTIST" value="By Austin Kleon" />
+                        </div>
+                    </div>
 
              </div>
 
-
+                <hr className='hrr' />
 
         </body>
 
