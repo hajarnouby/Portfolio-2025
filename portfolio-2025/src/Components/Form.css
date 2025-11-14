@@ -1,0 +1,28 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.pp80{
+    color: var(--wht);
+font-family: Syne;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 1.5rem */
+text-transform: uppercase;
+margin: 4% 0;
+}
+.pp81{
+    color: #FFF;
+
+font-family: Syne;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 1.5rem */
+text-transform: capitalize;
+}
+.bor{
+    border-bottom: 1px solid #FFF;
+}

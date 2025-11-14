@@ -244,3 +244,23 @@ margin: 0 auto;
     padding-top: 15%;
     float: left;
 }
+.collab{
+    background-color: var(--blck);
+    color: var(--wht);
+}
+.hrr{
+    width: 90.5%;
+height: 0.0625rem;
+/* margin-bottom: 5% ; */
+}
+.emo{
+    width: 40%;
+}
+.tyt{
+    justify-content: space-between;
+    width: 100%;
+}
+.ff{
+    width: 60%;
+    padding-top: 10%;
+}

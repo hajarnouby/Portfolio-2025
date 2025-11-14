@@ -11,3 +11,6 @@ border: none;
 background-image: url(../Assets/images/fram.svg);
 content: "Take a Closer Look";
 }
+button:hover{
+    background-image: var(--red);
+}

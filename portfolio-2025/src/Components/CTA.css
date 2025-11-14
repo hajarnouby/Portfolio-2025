@@ -15,3 +15,7 @@ height: 1.5rem;
     text-decoration: underline 2px var(--blck);
     padding-right: 2%;
 }
+.txt4:hover{
+    text-decoration: underline 2px var(--red);
+    color: var(--red);
+}

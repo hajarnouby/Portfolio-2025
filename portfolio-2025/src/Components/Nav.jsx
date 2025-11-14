@@ -28,8 +28,8 @@ const Nav = () => {
     return (  
         <nav>
             <img src={logi} alt="logo-blk" />
-            <p className='fnt1 st1'>HAJAR NOUBY</p>
-            <p className='fnt1 st1'>Menu +</p>
+            <p className='fnt1 st1 nn'>HAJAR NOUBY</p>
+            <p className='fnt1 st1 nn'>Menu +</p>
             
             {/* <StaggeredMenu/>
             <div style={{ height: '100vh', background: '#1a1a1a' }}>

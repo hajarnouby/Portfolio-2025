@@ -4,3 +4,6 @@ nav{
     justify-content: space-between;
     padding: 20px 40px;
 }
+.nn:hover{
+    color: var(--red);
+}

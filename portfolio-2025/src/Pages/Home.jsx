@@ -24,7 +24,9 @@ import Cta from './../Components/CTA';
 import Txt from '../Components/Txt';
 import Bcta from '../Components/Blogcta';
 import Book from '../Components/Book';
-
+import emo from '../Assets/images/emotion.svg'
+import Form from '../Components/Form';
+import Btn from '../Components/Btn';
 const Home = () => {
     return ( 
         <body>
@@ -124,6 +126,25 @@ const Home = () => {
              </div>
 
                 <hr className='hrr' />
+                <div className='page collab'>
+                <Txt title="LET'S COLLAB!"/>
+                    <div className='req tyt row cen'>
+                        <div className='emo'>
+                            <img src={emo} alt="emotion" />
+                        </div>
+                        <div className='col ff'>
+                            <Form title="YOUR NAME" value="Name" />
+                            <Form title="YOUR EMAIL" value="Email" />
+                            <Form title="YOUR IDEA" value="Tell Me Everything" />
+                            <Form title="YOUR BUDGET [ADD CURRENCY EX.50K DOLLAR]" value="Budget" />
+                            <Btn title="Submit" />
+                        </div>
+                    </div>
+
+                </div>
+
+
+
 
         </body>
 
