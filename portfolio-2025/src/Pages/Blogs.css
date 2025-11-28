@@ -1,0 +1,16 @@
+.cnt{
+    background-size: contain;
+}
+.sear{
+    border-bottom: 1px solid var(--grey, #6F6F6F);
+    display: flex;
+    width: 527px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+.helper{
+    justify-content: space-between;
+    align-items: center;
+}

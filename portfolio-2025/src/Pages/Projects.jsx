@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
+import logo from '../Assets/images/logo.svg'
 import './Home.css'
 import './Projects.css'
 import Nav from './../Components/Nav';
 import bk from '../Assets/images/bckg.svg'
-import Fav from './Fav';
 import five from '../Assets/videos/five.mp4'
 import pro2 from '../Assets/images/pro2.svg'
 import pro3 from '../Assets/images/pro3.svg'
@@ -14,8 +15,14 @@ import Footer from '../Components/Footer';
 const Projects = () => {
     return (  
         <>
-        <Fav />
-        <Nav />
+        <Helmet>
+        <title>Design Projects</title>
+        <link rel="icon" type="image/x-icon" href={logo}></link>
+        <meta name="description" content="UX/UI design,graphic design and front end develpment using html css, javascript and react js" />
+        <meta property="og:title" content="Projects" />
+        <meta property="og:image" content="/images/about.png" />
+      </Helmet>
+         <Nav />
                     <img className='img1' src={bk} alt="background" />
                 <div className='col cen sp4'>
                 <h2 className='fnt1 st3 txt3'>PROJ<span class="stroke">ECT</span></h2>

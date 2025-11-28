@@ -1,0 +1,16 @@
+.blog-card{
+    display: flex;
+padding: 10px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 10px;
+border-top: 1px solid var(--Black--bg, #050506);
+border-bottom: 1px solid var(--Black--bg, #050506);
+}
+.blogti{
+    width: 506.734px;
+}
+.w88{
+    width: 506.734px;
+}

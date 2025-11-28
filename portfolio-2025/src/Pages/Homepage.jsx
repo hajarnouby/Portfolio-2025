@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import Fav from './Fav';
-import Home from './Home';
+ import Home from './Home';
 const Homepage = () => {
     return ( 
         <>
-        <Fav/>
-        <Home/>
+         <Home/>
         
         </>
      );

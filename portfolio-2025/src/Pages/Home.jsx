@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
+import logo from '../Assets/images/logo.svg'
 import './Home.css';
 import Nav from '../Components/Nav';
 import bg from '../Assets/images/bg.svg'
@@ -31,6 +33,14 @@ import Btn from '../Components/Btn';
 import Footer from '../Components/Footer';
 const Home = () => {
     return ( 
+        <>
+        <Helmet>
+        <title>Hajar Nouby UX/UI Designer</title>
+        <link rel="icon" type="image/x-icon" href={logo}></link>
+        <meta name="description" content="“UX/UI Designer and Graphic Designer with strong front-end development skills. I design intuitive, human-centered experiences and bring them to life using HTML, CSS, JavaScript, and React. Passionate about creating visually engaging, user-friendly digital products from concept to fully coded solutions." />
+        <meta property="og:title" content="HomePage" />
+        <meta property="og:image" content="/images/about.png" />
+      </Helmet>
         <body>
             <img className='img1' src={bk} alt="background" />
             <div className='page pp3'>
@@ -149,7 +159,7 @@ const Home = () => {
 
                 <Footer />
         </body>
-
+</>
      );
 }
  

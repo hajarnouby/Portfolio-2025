@@ -9,11 +9,13 @@
     --size24:1.5rem;
     /* 16 */
     --size16: 1rem;
+    
     --red:#FF0000;
     --blck:#050506;
-    --wht: #EFF0E8;
+    --wht: #F7F9F8;
     --grey: #6F6F6F;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +25,16 @@
 }
 .fnt2{
     font-family: "Syncopate", sans-serif;
+}
+.redish{
+    color: var(--red);
+}
+.greyish{
+    color: var(--grey, #6F6F6F);
+    
+}
+.blckish{
+    color: var(--blck);
 }
 body{
     background-color: var(--wht);
@@ -55,6 +67,9 @@ h4{
 }
 p{
     font-size: var(--size16);
+}
+.st0{
+    font-weight: 600;
 }
 .st1{
     font-weight: 700

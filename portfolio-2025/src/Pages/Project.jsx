@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
+import logo from '../Assets/images/logo.svg'
 import './Project.css'
 import TVOS from '../Assets/videos/TVOS.mp4'
-import Fav from './Fav';
 import Nav from '../Components/Nav';
 import Txt from '../Components/Txt';
 import fig from '../Assets/images/fig.svg'
@@ -11,7 +12,15 @@ import Footer from '../Components/Footer';
 const Project = () => {
     return ( 
         <>
-        <Fav />
+<Helmet>
+        <title>Design Project</title>
+        <link rel="icon" type="image/x-icon" href={logo}></link>
+        <meta name="description" content="UX/UI design,graphic design and front end develpment using html css, javascript and react js" />
+        <meta property="og:title" content="Projects" />
+        <meta property="og:image" content="/images/about.png" />
+      </Helmet>
+
+
         <Nav />
          <video className='proj' src={TVOS} autoPlay loop muted></video>
          <div className='page row'>
@@ -34,6 +43,7 @@ This operating system is built for seamless performance, offering a fluid and in
 
          </div>
          <Footer />
+         
         </>
      );
 }
