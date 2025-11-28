@@ -19,3 +19,6 @@ height: 1.5rem;
     text-decoration: underline 2px var(--red);
     color: var(--red);
 }
+.ico:hover{
+    transform: rotate(45deg);
+}

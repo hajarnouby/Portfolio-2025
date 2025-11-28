@@ -7,6 +7,8 @@ align-items: flex-start;
 gap: 10px;
 border-top: 1px solid var(--Black--bg, #050506);
 border-bottom: 1px solid var(--Black--bg, #050506);
+margin: 5rem;
+width: 32rem;
 }
 .blogti{
     width: 506.734px;

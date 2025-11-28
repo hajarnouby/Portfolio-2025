@@ -6,6 +6,7 @@ import Txt from '../Components/Txt';
 import Nav from '../Components/Nav';
 import search from '../Assets/icons/search.svg'
 import filter from '../Assets/icons/filter.svg'
+import Blog from '../Components/Blog';
 const Blogs = () => {
     return ( 
         <>
@@ -33,7 +34,9 @@ const Blogs = () => {
                 <img src={filter} alt="filter" />
             </div>
         </div>
-
+        </div>
+        <div>
+            <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
         </div>
         </>
      );
