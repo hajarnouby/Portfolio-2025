@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 import logo from '../Assets/images/logo.svg'
 import './Blogs.css'
@@ -6,8 +7,9 @@ import Txt from '../Components/Txt';
 import Nav from '../Components/Nav';
 import search from '../Assets/icons/search.svg'
 import filter from '../Assets/icons/filter.svg'
-import Blog from '../Components/Blog';
+import Blog from '../Components/Blogcard';
 import Pagei from '../Components/Pagination';
+import Footer from '../Components/Footer';
 const Blogs = () => {
     return ( 
         <>
@@ -36,10 +38,12 @@ const Blogs = () => {
             </div>
         </div>
         </div>
+        <Link to="/blogs/blog1">
         <div className='row cen'>
             <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
             <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
         </div>
+        </Link>
                 <div className='row cen'>
             <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
             <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
@@ -53,6 +57,7 @@ const Blogs = () => {
             <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
         </div>
         <Pagei />
+        <Footer />
         </>
      );
 }

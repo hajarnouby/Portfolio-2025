@@ -3,6 +3,8 @@
     --size236: 14.75rem;
     /* 128 */
     --size128: 8rem;
+    /* 64 */
+    ---size64: 4rem;
     /* 32 */
     --size32: 2rem;
     /* 24 */
@@ -64,6 +66,9 @@ h3{
 }
 h4{
     font-size: var(--size24);
+}
+h5{
+    font-size: var(---size64);
 }
 p{
     font-size: var(--size16);

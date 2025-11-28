@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Blog.css'
+import './Blogcard.css'
 import blogex from '../Assets/images/imgex.svg'
 import Cta from './CTA';
 const Blog = (props) => {

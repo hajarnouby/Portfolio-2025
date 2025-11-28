@@ -5,7 +5,7 @@ import Home from '../src/Pages/Homepage';
 import Projects from './Pages/Projects';
 import Project from './Pages/Project';
 import Blogs from './Pages/Blogs';
-import Blog from './Components/Blog';
+import Blogpage from './Pages/Blogpage';
 
 
 const Routess = () => {
@@ -15,7 +15,7 @@ const Routess = () => {
             <Route path="/" element={<Home/>}></Route>
             <Route path="/projects" element={<Projects/>}></Route>
             <Route path="/blogs" element={<Blogs/>}></Route>
-            <Route path="/blogs/:id" element={<Blog/>}></Route>
+            <Route path="/blogs/:id" element={<Blogpage />}></Route>
             <Route path="/projects/:id" element={<Project />}></Route>
             <Route path="*" element={<Error404/>}></Route>
         </Routes>
