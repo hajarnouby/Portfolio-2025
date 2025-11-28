@@ -11,6 +11,7 @@ import pro2 from '../Assets/images/pro2.svg'
 import pro3 from '../Assets/images/pro3.svg'
 import slide from '../Assets/images/slide.svg'
 import Footer from '../Components/Footer';
+import Pagei from '../Components/Pagination';
 
 const Projects = () => {
     return (  
@@ -37,7 +38,7 @@ const Projects = () => {
                 <img className='projs' src={pro3} alt="project3" />
         </div>
             </div>
-            <img className='center cen sp88' src={slide} alt="" />
+            <Pagei />
             <Footer />
         </>
     );

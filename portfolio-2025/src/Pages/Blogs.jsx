@@ -7,6 +7,7 @@ import Nav from '../Components/Nav';
 import search from '../Assets/icons/search.svg'
 import filter from '../Assets/icons/filter.svg'
 import Blog from '../Components/Blog';
+import Pagei from '../Components/Pagination';
 const Blogs = () => {
     return ( 
         <>
@@ -35,9 +36,23 @@ const Blogs = () => {
             </div>
         </div>
         </div>
-        <div>
+        <div className='row cen'>
+            <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
             <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
         </div>
+                <div className='row cen'>
+            <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+            <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+        </div>
+                <div className='row cen'>
+            <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+            <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+        </div>
+                <div className='row cen'>
+            <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+            <Blog title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+        </div>
+        <Pagei />
         </>
      );
 }
