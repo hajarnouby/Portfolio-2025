@@ -9,7 +9,7 @@ const Blog = (props) => {
                 <img src={blogex} alt="thumbnail" />
                 <h3 className='blogti fnt1 st0'>{props.title}</h3>
                 <p className='fnt1 w88'>{props.value}</p>
-                <Cta title="Read Blog" />
+                <Cta value="Read Blog" />
             </div>
         </>
      );
