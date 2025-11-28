@@ -114,7 +114,8 @@ const Home = () => {
                 <div className='high'>
                 <Txt title="BLOGS"/>
                 </div>
-                    <Bcta title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+                    <Link to="/blogs"><Bcta title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
+                    </Link>
                     <Bcta title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
                     <Bcta title="Designing Emotion: The Heart Behind Every Interface" value="I dive into how empathy shapes every click and scroll — because great design isn’t just functional, it feels right." />
              </div>
