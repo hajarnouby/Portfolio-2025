@@ -8,6 +8,9 @@
     text-wrap: nowrap;
     font-family: Arial, Helvetica, sans-serif;
 }
+.ftt:hover{
+    color: var(--red);
+}
 .foots{
     width: 20%;
 }
@@ -49,13 +52,16 @@ height: 0.625rem;
     background-color: var(--red);
 }
 .end{
-    color: #151515;
-font-family: Syne;
-font-size: 18.063rem;
-font-weight: 700;
-line-height: auto;
-display: flex;
-margin: 0 auto;
-justify-content: center;
-padding-top: 1%;
+   width: 100%;
+}
+.email{
+    color: var(--grey);
+}
+.email,.ftt :hover {
+    color: var(--red);
+}
+.fttt{
+        padding-left: 2%;
+    text-wrap: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
 }

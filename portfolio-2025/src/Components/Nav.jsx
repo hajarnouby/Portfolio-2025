@@ -1,8 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+import { Link } from "react-router-dom";
 import './Nav.css';
 import logi from '../Assets/images/logi.svg'
 // import StaggeredMenu from '../Style/StaggeredMenu';
 const Nav = () => {
+  const [open, setOpen] = useState(false);
+
+  const toggleMenu = () => setOpen(!open);
 //     const menuItems = [
 
 //   { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
@@ -29,7 +33,17 @@ const Nav = () => {
         <nav>
             <img src={logi} alt="logo-blk" />
             <p className='fnt1 st1 nn'>HAJAR NOUBY</p>
-            <p className='fnt1 st1 nn'>Menu +</p>
+            <p className='menuToggle menuToggle fnt1 st1 nn' onClick={toggleMenu}>{open ? "Close -" : "Menu +"}</p>
+
+
+      <div className={`overlay ${open ? "active" : ""}`}>
+        <nav className="overlayNav">
+          <Link className="overlayLink fnt2" to="/">HOME <span className="num">01</span></Link>
+          <Link className="overlayLink fnt2" to="/aboutme">ABOUT ME<span className="num">02</span></Link>
+          <Link className="overlayLink fnt2" to="/projects">PROJECTS <span className="num">03</span></Link>
+          <Link className="overlayLink fnt2" to="/getintouch">GET IN TOUCH <span className="num">04</span></Link>
+        </nav>
+      </div>
             
             {/* <StaggeredMenu/>
             <div style={{ height: '100vh', background: '#1a1a1a' }}>
