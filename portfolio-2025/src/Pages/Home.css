@@ -46,6 +46,7 @@ body{
 .page{
     margin: 0 auto;
     padding: 0 40px;
+    background-color: #F7F9F8;
 }
 .row{
     display: flex;
@@ -160,10 +161,11 @@ hr{
 }
 .qut{
     padding-top: 5%;
-    background-image: url(../Assets/images/bg2.svg);
+    background-image: url(../Assets/images/icreate.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .txt1{
     color: var(--red);
     padding-left: 10%;

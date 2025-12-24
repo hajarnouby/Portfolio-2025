@@ -8,6 +8,8 @@ import bg from '../Assets/images/bg.svg'
 import sign from '../Assets/images/sign.svg'
 import show from '../Assets/videos/Showreel.mp4'
 import be from '../Assets/icons/behan.svg'
+import git from '../Assets/icons/git.svg'
+import lin from '../Assets/icons/in.svg'
 import drib from '../Assets/icons/drib.svg'
 import up from '../Assets/icons/up.svg'
 import Card from '../Components/Card';
@@ -52,9 +54,11 @@ const Home = () => {
             <div className='row div2'>
             <div className='cen sp1'>
             <hr />
-                <img className='soci' src={be} alt="behance" />
-                <img className='soci' src={drib} alt="dribbble" />
-                <img className='soci' src={up} alt="upwork" />
+                <a href="https://www.behance.net/hajarnouby"><img className='soci' src={be} alt="behance" /></a>
+                <a href="https://dribbble.com/Hajarnouby"><img className='soci' src={drib} alt="dribbble" /></a>
+                <a href="https://www.upwork.com/freelancers/~0101426f1d22122996"><img className='soci' src={up} alt="upwork" /></a>
+                <a href="https://github.com/hajarnouby"><img className='soci' src={git} alt="github" /></a>
+                <a href="https://www.linkedin.com/in/hajar-nouby-266475330/"><img className='soci' src={lin} alt="linkedin" /></a>
             </div>
             <div className='col'>
                 <p className='st1 fnt2'>SHOWREEL 2025</p>
@@ -146,11 +150,8 @@ const Home = () => {
                             <img src={emo} alt="emotion" />
                         </div>
                         <div className='col ff'>
-                            <Form title="YOUR NAME" value="Name" />
-                            <Form title="YOUR EMAIL" value="Email" />
-                            <Form title="YOUR IDEA" value="Tell Me Everything" />
-                            <Form title="YOUR BUDGET [ADD CURRENCY EX.50K DOLLAR]" value="Budget" />
-                            <Btn title="Submit" />
+                            {/* <Form /> */}
+                            {/* <Form /> */}
                         </div>
                     </div>
 

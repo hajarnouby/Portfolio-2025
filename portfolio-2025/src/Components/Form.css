@@ -1,9 +1,9 @@
-.form{
+form{
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
 }
-.pp80{
+label{
     color: var(--wht);
 font-family: Syne;
 font-size: 1.5rem;
@@ -13,16 +13,36 @@ line-height: 100%; /* 1.5rem */
 text-transform: uppercase;
 margin: 4% 0;
 }
-.pp81{
+input [ type="text"]{
     color: #FFF;
-
 font-family: Syne;
 font-size: 1.5rem;
 font-style: normal;
 font-weight: 400;
 line-height: 100%; /* 1.5rem */
 text-transform: capitalize;
+font-size: var(--size16);
 }
-.bor{
+
+input{
+    background-color: none;
+    background: none;
+    border: none;
+    width: 100%;
+    color: var(--wht);
+    font-size: var(--size24);
+    border-bottom: 1px solid #FFF;
+
+}
+textarea{
+        background-color: none;
+    background: none;
+    border: none;
+    width: 100%;
+    color: var(--wht);
+    font-size: var(--size24);
+    border-bottom: 1px solid #FFF;
+}
+input:focus {
     border-bottom: 1px solid #FFF;
 }

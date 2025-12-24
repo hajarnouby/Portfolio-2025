@@ -6,6 +6,8 @@ import Projects from './Pages/Projects';
 import Project from './Pages/Project';
 import Blogs from './Pages/Blogs';
 import Blogpage from './Pages/Blogpage';
+import TestAPI from './Pages/TestAPI';
+import Contact from './Pages/Contact';
 
 
 const Routess = () => {
@@ -17,6 +19,8 @@ const Routess = () => {
             <Route path="/blogs" element={<Blogs/>}></Route>
             <Route path="/blogs/:id" element={<Blogpage />}></Route>
             <Route path="/projects/:id" element={<Project />}></Route>
+            <Route path="/Test" element={<TestAPI />}></Route>
+            <Route path="/GetInTouch" element={<Contact />}></Route>
             <Route path="*" element={<Error404/>}></Route>
         </Routes>
         </BrowserRouter>
