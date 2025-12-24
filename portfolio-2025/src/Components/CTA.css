@@ -1,4 +1,4 @@
-.cta{
+/* .cta{
     text-wrap: nowrap;
     justify-content: center;
     align-items: end;
@@ -20,5 +20,37 @@ height: 1.5rem;
     color: var(--red);
 }
 .ico:hover{
+    transform: rotate(45deg);
+} */
+ .cta{
+    text-wrap: nowrap;
+    justify-content: center;
+    align-items: end;
+}
+
+.ico{
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.ct{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt4{
+    text-decoration: underline 2px var(--blck);
+    padding-right: 1%;
+    transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+/* FIX: hover parent instead of individual elements */
+.cta:hover .txt4{
+    text-decoration: underline 2px var(--red);
+    color: var(--red);
+}
+
+.cta:hover .ico{
     transform: rotate(45deg);
 }
