@@ -1,27 +1,4 @@
-/* .cta{
-    text-wrap: nowrap;
-    justify-content: center;
-    align-items: end;
-}
-.ico{
-width: 1.5rem;
-height: 1.5rem;
-}
-.ct{
-    justify-content: space-between;
-    align-items: center;
-}
-.txt4{
-    text-decoration: underline 2px var(--blck);
-    padding-right: 1%;
-}
-.txt4:hover{
-    text-decoration: underline 2px var(--red);
-    color: var(--red);
-}
-.ico:hover{
-    transform: rotate(45deg);
-} */
+
  .cta{
     text-wrap: nowrap;
     justify-content: center;

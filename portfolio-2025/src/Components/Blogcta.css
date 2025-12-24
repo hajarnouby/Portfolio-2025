@@ -1,3 +1,4 @@
+
 .bcta{
     display: flex;
     flex-direction: row;
@@ -8,15 +9,35 @@
     padding: 1%;
     border-bottom: 1px solid #000;
     margin-top: 2%;
+    transition: background-color 0.3s ease;
 }
-.bcta:hover, svg:hover path {
+
+
+.svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    transform-origin: center;
+}
+
+
+ .svg path{
+    transition: fill 0.3s ease;
+}
+
+ .bcta:hover{
     background-color: var(--red);
-      fill: #FFF;
-      color: #fff;
 }
-.hh4{
-    width: 24rem;  
+
+ .bcta:hover .svg{
+    transform: rotate(45deg);
 }
-.pp4{
-    width: 22.5625rem;
+
+ .bcta:hover .svg path{
+    fill: #fff;
+}
+
+ .bcta:hover h4,
+.bcta:hover p{
+    color: #fff;
 }
