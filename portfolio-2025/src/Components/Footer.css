@@ -65,3 +65,54 @@ height: 0.625rem;
     text-wrap: nowrap;
     font-family: Arial, Helvetica, sans-serif;
 }
+@media screen and (max-width: 900px) {
+    .footerr {
+        flex-direction: column-reverse; /* Video on top, or bottom. Remove 'reverse' to put video at bottom */
+        padding: 10% 5%;
+        text-align: center;
+    }
+
+    /* Stack Content Centered */
+    .footss {
+        width: 100%;
+        align-items: center; /* Center items on mobile */
+    }
+
+    /* Video Container Mobile */
+    .foots {
+        width: 100%;
+        max-width: 400px; /* Prevent it from getting too huge */
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    /* Navigation Links Mobile */
+    .gyt {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    /* Specific Adjustments */
+    .logored {
+        width: 8rem;
+    }
+    
+    .ftt {
+        font-size: 1rem;
+    }
+
+    .fttt {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gyt {
+        flex-direction: column; /* Stack links vertically on very small phones */
+        gap: 0.8rem;
+    }
+    
+    .fvd {
+        width: 100%;
+    }
+}

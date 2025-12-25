@@ -43,8 +43,9 @@ const Nav = () => {
           <Link className="overlayLink fnt2" to="/projects">PROJECTS <span className="num">03</span></Link>
           <Link className="overlayLink fnt2" to="/getintouch">GET IN TOUCH <span className="num">04</span></Link>
         </nav>
+
       </div>
-            
+          
             {/* <StaggeredMenu/>
             <div style={{ height: '100vh', background: '#1a1a1a' }}>
 
