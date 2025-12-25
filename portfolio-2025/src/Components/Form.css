@@ -2,9 +2,10 @@ form{
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
+    
 }
 label{
-    color: var(--wht);
+    color: var(--blck);
 font-family: Syne;
 font-size: 1.5rem;
 font-style: normal;
@@ -14,7 +15,7 @@ text-transform: uppercase;
 margin: 4% 0;
 }
 input [ type="text"]{
-    color: #FFF;
+    color: var(--blck);
 font-family: Syne;
 font-size: 1.5rem;
 font-style: normal;
@@ -29,9 +30,10 @@ input{
     background: none;
     border: none;
     width: 100%;
-    color: var(--wht);
+    color: var(--blck);
     font-size: var(--size24);
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid var(--blck);
+    margin-bottom: 5%;
 
 }
 textarea{
@@ -39,10 +41,16 @@ textarea{
     background: none;
     border: none;
     width: 100%;
-    color: var(--wht);
+    color: var(--blck);
     font-size: var(--size24);
-    border-bottom: 1px solid #FFF;
+    border-bottom: 1px solid var(--blck);
 }
 input:focus {
-    border-bottom: 1px solid #FFF;
+      outline: none;
+    border-bottom: 2px solid var(--red);
+}
+textarea:focus{
+      outline: none;
+    border-bottom: 2px solid var(--red);
+
 }

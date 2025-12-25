@@ -24,7 +24,7 @@ const Projects = () => {
         <meta property="og:image" content="/images/about.png" />
       </Helmet>
          <Nav />
-                    <img className='img1' src={bk} alt="background" />
+                    {/* <img className='img1' src={bk} alt="background" /> */}
                 <div className='col cen sp4'>
                 <h2 className='fnt1 st3 txt3'>PROJ<span class="stroke">ECT</span></h2>
                 <p className='fnt1 p4'>“As a UX/UI designer i use Figma and many adobe applications like aftereffects, illustrator, Photoshop And blender to bring my vision to light!”</p>

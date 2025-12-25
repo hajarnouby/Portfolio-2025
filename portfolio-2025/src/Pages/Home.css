@@ -200,7 +200,7 @@ text-transform: capitalize;
 }
 .p4{
     width: 28.375rem;
-    padding-right: 39%;
+
 }
 .p7{
     transform: rotate(-90deg);
@@ -296,4 +296,8 @@ a{
 Link{
     text-decoration: none;
     color: inherit;
+}
+.sio{
+    justify-content: space-around;
+
 }

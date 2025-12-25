@@ -28,6 +28,7 @@ const Form = () => {
             <br />
             <label>your Budget [add  your currency ex.50k $]</label>
             <input className='fnt1' type="text" placeholder='Budget' />
+            <br />
             <Btn title="Submit" /> 
         </form>
         </>
